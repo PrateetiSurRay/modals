@@ -1,14 +1,25 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3&display=swap');
-
- .centered-modal {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: fit-content;
-    }
-   .modal #exampleModal{
-        width: 60%
-    }
+  
+  .container{
+    padding:0;
+  } 
+  .centered-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+  .centered-modal-dialog{
+    width: 300px ;
+    margin: 0 auto; 
+} 
+   
+.centered-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
 .form-control{
     font-family:  'Roboto', sans-serif;
     font-size: 14px;
@@ -32,10 +43,10 @@
 }
 .btn-custom{
     background:#01A0C3;
-    color: #fff; 
-    padding: 12px 64px; 
+    color: #fff;   
     border-radius: 6px; 
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 600;
 }
 .badge-custom{
@@ -47,6 +58,9 @@
 }
 .input-custom{
     height: 35px;
+}
+.custom-input{
+    height: 100px;
 }
 .li-custom{
     height: 46px;
